@@ -1,0 +1,97 @@
+.background-login{
+  justify-self: center;
+  align-self: center;
+  margin-top: 10%;
+  width: 400px;
+  height: 350px;
+  background-color: #1e1e1e;
+
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.background-login p{
+  margin-top: 10%;
+  color: #E0E0E0;
+}
+
+.error-message{
+  position: absolute;
+  top: 4.6em;
+  color: #1e1e1e !important;
+  background-color: #E53935 !important;
+  width: 19em;
+  height: 1.5em;
+  text-align: center;
+  align-self: center;
+  padding-top: 5px;
+  border-radius: 5px;
+
+}
+
+.input{
+  box-sizing: border-box;
+
+  width: 90%;
+  min-height: 10%;
+  height: 13%;
+  max-height: 13%;
+  background-color: #1e1e1e;
+
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #2c2c2c;
+  border-width: 1px;
+
+  color: #e0e0e0;
+
+  margin: 3.8em 10px 10px 10px;
+  padding-left: 10px;
+
+  transition: ease-out 0.1s;
+}
+
+.input::placeholder{
+  display: flex;
+}
+
+
+.input:focus{
+  outline: none;
+  box-shadow: none;
+  border-width: 1px;
+  border-color: #1E3CE5;
+
+  transition: ease-in 0.1s;
+}
+
+.custom-mg-btm{
+  margin-top: 10px !important;
+}
+
+.login-button{
+  margin-top: 2em;
+
+  width: 40%;
+  min-height: 10%;
+  height: 11%;
+  max-height: 11%;
+  background-color: #1E88E5;
+
+  border-radius: 10px;
+  border-style: none;
+
+  color: #e0e0e0;
+
+  cursor: pointer;
+  transition: ease-out 0.1s;
+}
+
+.login-button:hover{
+  background-color: #1E3CE5;
+  transition: ease-in 0.2s;
+}

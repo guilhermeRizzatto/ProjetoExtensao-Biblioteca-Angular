@@ -1,0 +1,7 @@
+<div class="background-login">
+  <p>Login</p>
+  <p *ngIf="error" [@fadeInOut] class="error-message">{{error}}</p>
+  <input [(ngModel)]="dados.identificacao" class="input" placeholder="Identificação">
+  <input [(ngModel)]="dados.senha" class="input custom-mg-btm" type="password" placeholder="Senha">
+  <button (click)="login()" class="login-button">Entrar</button>
+</div>
